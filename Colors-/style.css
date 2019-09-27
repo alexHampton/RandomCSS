@@ -1,0 +1,118 @@
+body {
+}
+.one, .two, .three, .four, .five {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 50px;
+}
+.border {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+#borderone {
+    background-color: hsla(36, 80%, 40%, 0.6);
+    transform: rotate(0deg);
+    top: 164px;
+    left: 394px;
+    z-index: 5;
+}
+#bordertwo {
+    background-color: hsla(108, 80%, 40%, 0.6);
+    transform: rotate(337.5deg);
+    top: 156px;
+    left: 178px;
+    z-index: 5;
+}
+#borderthree {
+    background-color: hsla(180, 80%, 40%, 0.6);
+    transform: rotate(45deg);
+    top: 551px;
+    left: 250px;
+    z-index: 5;
+}
+#borderfour {
+    background-color: hsla(252, 80%, 40%, 0.6);
+    transform: rotate(22.5deg);
+    top: 418px;
+    left: 47px;
+    z-index: 5;
+}
+#borderfive {
+    background-color: hsla(324, 80%, 40%, 0.5);
+    transform: rotate(0deg);
+    top: 164px;
+    left: 106px;
+    z-index: 5;
+}
+.one {
+    background-color: hsla(0, 80%, 40%, 0.5);
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 10;
+}
+.two{
+    background-color: hsla(72, 80%, 40%, 0.5);
+    position: absolute;
+    top: 262.5px;
+    left: 275px;
+    z-index: 10;
+}
+.three{
+    background-color: hsla(144, 80%, 40%, 0.5);
+    position: absolute;
+    top: 337.5px;
+    left: 237.5px;
+    z-index: 10;
+}
+.four {
+    background-color: hsla(216, 80%, 40%, 0.5);
+    position: absolute;
+    top: 337.5px;
+    left: 162.5px;
+    z-index: 10;
+}
+.five {
+    background-color: hsla(288, 80%, 40%, 0.5);
+    position: absolute;
+    top: 262.5px;
+    left: 125px;
+    z-index: 10;
+}
+.background {
+    position: absolute;
+    background-color: hsl(0, 0%, 80%);
+}
+#background1 {
+    top: 164px;
+    left: 106px;
+    width: 388px;
+    height: 200px;
+}
+#background2 {
+    z-index: 4;
+    color: hsl(0, 0%, 80%);
+    top: 342px;
+    left: 338px;
+    width: 200px;
+    height: 200px;
+    transform: rotate(337.5deg);
+}
+#background3 {
+    z-index: 4;
+    width: 200px; 
+    height: 200px;
+    transform: rotate(45deg);
+    top: 430px;
+    left: 200px; 
+}
+#background4 {
+    z-index: 4;
+    width: 200px;
+    height: 200px;
+    transform: rotate(22.5deg);
+    top: 341px;
+    left: 62px;
+}
